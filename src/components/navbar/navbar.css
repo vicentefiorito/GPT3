@@ -21,3 +21,48 @@
     width: 62px;
     height: 16px;
 }
+
+.gpt3__navbar-links_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.gpt3__navbar-sign {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.gpt3__navbar-links_container p,
+.gpt3__navbar-sign p,
+.gpt3__navbar-menu_containter p {
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.gpt3__navbar-sign button,
+.gpt3__navbar-menu_containter button {
+    width: 152px;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    left: 1153px;
+    top: 55px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+
+    border-radius: 5px;
+    background: #ff4820;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+
+}
